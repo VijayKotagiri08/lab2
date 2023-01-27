@@ -4,7 +4,7 @@
 // Top module:
 // Rajan Sankaranarayanan, Sathish Thirumalaisamy, ECE 581 Winter 2020
 
-module fifo1_sram #(parameter DSIZE = 8, parameter ASIZE = 10) (
+module fifo1_sramb #(parameter DSIZE = 8, parameter ASIZE = 10) (
 	output [DSIZE-1:0] rdata,
 	output wfull,
 	output rempty,

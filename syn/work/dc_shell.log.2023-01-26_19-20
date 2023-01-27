@@ -1,0 +1,54 @@
+setting auto_restore_mw_cel_lib_setup true
+Initializing gui preferences from file  /u/kotagiri/.synopsys_dv_prefs.tcl
+dc_shell> current_design
+Error: Current design is not defined. (UID-4)
+dc_shell> set top_design fifo_sramb
+fifo_sramb
+dc_shell> current_design
+Error: Current design is not defined. (UID-4)
+dc_shell> set top_design fifo_sramb
+fifo_sramb
+dc_shell> current_design
+Error: Current design is not defined. (UID-4)
+dc_shell> source ../scripts/dc.tcl
+Error: could not open script file "../../fifo_sramb.design_config.tcl" (CMD-015)
+Warning: No designs to list. (UID-275)
+Error: can't read "lib_types": no such variable
+        Use error_info for more info. (CMD-013)
+Error: can't read "lib_types_target": no such variable
+        Use error_info for more info. (CMD-013)
+Error: can't read "rtl_list": no such variable
+        Use error_info for more info. (CMD-013)
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/dw_foundation.sldb'
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/gtech.db'
+Loading db file '/pkgs/synopsys/2020/design_compiler/syn/Q-2019.12-SP3/libraries/syn/standard.sldb'
+  Loading link library 'gtech'
+Error: Cannot find the design 'fifo_sramb' in the library 'WORK'. (LBR-0)
+Error: Current design is not defined. (UID-4)
+Error: could not open script file "../../constraints/fifo_sramb.sdc" (CMD-015)
+Error: Current design is not defined. (UID-4)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Can't find lib_cells matching '*/DELLN*'. (UID-109)
+Error: Value for list 'object_list' must have 1 elements. (CMD-036)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: Current design is not defined. (UID-4)
+Error: No files or designs were specified. (UID-22)
+Error: No files or designs were specified. (UID-22)
+Error: Current design is not defined. (UID-4)
+0
+dc_shell> current_design
+Error: Current design is not defined. (UID-4)
+dc_shell> set top_design fifo_sramb
+fifo_sramb
+dc_shell> current_design
+Error: Current design is not defined. (UID-4)
+dc_shell> exit 1
+
+Memory usage for this session 65 Mbytes.
+Memory usage for this session including child processes 65 Mbytes.
+CPU usage for this session 3 seconds ( 0.00 hours ).
+Elapsed time for this session 180 seconds ( 0.05 hours ).
+
+Thank you...
+

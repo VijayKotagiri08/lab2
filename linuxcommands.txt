@@ -1,0 +1,200 @@
+    1  pwd
+    2  ls 
+    3  ls -ll
+    4  ls -l
+    5  pwd
+    6  mkdir kotagiri_asic
+    7  ls
+    8  cd kotagiri_asic/
+    9  pwd
+   10  cp -r /u/bcruik2/ECE581-2022-WINTER/synth_apr_repo/
+   11  cp -r /u/bcruik2/ECE581-2022-WINTER/synth_apr_repo/ lab1
+   12  ls
+   13  cd lab1/syn/work
+   14  dc_shell
+   15  dc_shell
+   16  pwd
+   17  cd 
+   18  pwd
+   19  addpkg
+   20  exit
+   21  vncserver -kill
+   22  pwd
+   23  cd kotagiri_asic/
+   24  cd lab1/
+   25  cd lab1/syn/work
+   26  pwd
+   27  cd syn/work
+   28  ls
+   29  dc_shell
+   30  addpkg
+   31  ls
+   32  pwd
+   33  cd kotagiri_asic/
+   34  addpkg
+   35  cd lab1/syn/work/
+   36  dc_shell
+   37  pwd
+   38  cd ../..
+   39  ls
+   40  pwd
+   41  cd 
+   42  pwd
+   43  cp -r /u/bcruik2/ECE581-2022-WINTER/synth_apr_repo/ kotagiri_asic/
+   44  addpkg
+   45  pwdc
+   46  pwd
+   47  ls
+   48  cd kotagiri_asic/
+   49  cd synth_apr_repo/syn/work/
+   50  dc_shell
+   51  cd 
+   52  cd ../
+   53  ls
+   54  cd kotagiri/
+   55  pwd
+   56  addpkg
+   57  pwd
+   58  cd kotagiri_asic/
+   59  cd synth_apr_repo/syn/work/
+   60  pwd
+   61  dc_shell
+   62  pwd
+   63  cd 
+   64  pwd
+   65  cd kotagiri_asic/lab1/syn/work/
+   66  dc_shell
+   67  addpkg 
+   68  addpkg 
+   69  dc_shell
+   70  addpkg
+   71  vncserver -kill "
+   72  vncserver -kill :11
+   73  vncserver
+   74  vncserver -kill
+   75  vncserver -autokill
+   76  vncserver
+   77  vncserver -kill 16
+   78  vncserver -kill :16
+   79  vncserver
+   80  \
+   81  vncserver
+   82  vncserver
+   83  vncserver -kill :11
+   84  ls
+   85  cd kotagiri_asic/
+   86  cd lab1/syn/work/
+   87  dc_shell
+   88  pwd
+   89  genus
+   90  pwd
+   91  cd ../..
+   92  cd sim/work/
+   93  pwd
+   94  export TOP=simple_adder
+   95  source ../scripts/run_tb_fe.sh 
+   96  export TOP=simple_adder
+   97  source ../scripts/run_tb_be_dc.sh 
+   98  cd ../..
+   99  pwd
+  100  cd lec/work/
+  101  export CDS_LEC_FILE=5280@license.cecs.pdx.edu
+  102  source /pkgs/cadence/09-2015/local/bin/s_cadence.bash
+  103  export TOP=simple_adder
+  104  lec -tclmode -dofile ../scripts/lec_rtl2dc.tcl 
+  105  vncserver
+  106  vncserver
+  107  exit
+  108  vncserver
+  109  pwd
+  110  cd kotagiri_asic/
+  111  git init
+  112  git add cd lab1/
+  113  cd lab1/
+  114  git init
+  115  git add syn/
+  116  pwd
+  117  git status
+  118  pwd
+  119  git commit -m lab1
+  120   git remote add kotagiri https://github.com/VijayKotagiri08/Asic_1.git
+  121  git push kotagiri master
+  122  git push kotagiri master
+  123  git push VijayKotagiri08 master
+  124  git push kotagiri master
+  125  git push kotagiri master
+  126  history
+  127  history > gitcommands.txt
+  128  gvim gitcommands.txt 
+  129  vncserver
+  130  vncserver
+  131  vncserver
+  132  history
+  133  vncserver
+  134  vncserver
+  135  vncserver -kill :19
+  136  vncserver -kill :14
+  137  vncserver
+  138  vncserver
+  139  vncserver
+  140  pwd
+  141  cd lab2-VijayKotagiri08/
+  142  pwd
+  143  cd syn/work/
+  144  pwd
+  145  pwd
+  146  report_timing
+  147  dc_shell
+  148  git clone   https://github.com/ECE581-2023-WINTER/lab2-VijayKotagiri08
+  149  git clone   https://github.com/ECE581-2023-WINTER/lab2-VijayKotagiri08
+  150  git clone https://github.com/ECE581-2023-WINTER/lab2-VijayKotagiri08
+  151  pwd
+  152  lab2-VijayKotagiri08/syn/work/
+  153  dc_shell
+  154  cd lab2-VijayKotagiri08/syn/work/
+  155  pwd
+  156  dc_shell
+  157  pwd
+  158  cd ..
+  159  ls
+  160  cd ..
+  161  gvim fifo1_srama.design_config.tcl 
+  162  pwd
+  163  cd syn/
+  164  cd rtl/
+  165  gvim fifo1_sram.sv 
+  166  pwd
+  167  cd ../
+  168  cd work
+  169  pwd
+  170  dc_shell
+  171  pwd
+  172  ls -ll
+  173  set top_design fifo1_sram
+  174  dc.tcl
+  175  source ../scripts/dc.tcl
+  176  source ../scripts/dc.tcl 
+  177  ls -ll
+  178  ls -lrt
+  179  gvim dc_shell.log.2023-01-25_23-05
+  180  grep "sub_mwlib_type" ../scripts/*
+  181  gvim ../scripts/dct-getcreate-mwlib.tcl
+  182  ls -lrt /pkgs/synopsys/2020/32_28nm/SAED32_EDK
+  183  ls -lrt /pkgs/synopsys/2020/32_28nm/SAED32_EDK/tech/
+  184  grep "SRAM" ../scripts/*
+  185  /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/sram/milkyway/SRAM32NM
+  186  ls -lrt /pkgs/synopsys/2020/*/*/lib/sram/milkyway/SRAM2RW128x8
+  187  ls -lrt /pkgs/synopsys/2020/*/*/lib/sram/milkyway/*
+  188  ls -lrt /pkgs/synopsys/2020/*/*/lib/sram/milkyway/*/*/Sram
+  189  ls -lrt /pkgs/synopsys/2020/*/*/lib/sram/milkyway/*/*/SRAM*
+  190  ls -lrt /pkgs/synopsys/2020/*/*/lib/sram/milkyway/*/*/SRAM*128*
+  191  ls -lrt /pkgs/synopsys/2020/*/*/lib/sram/milkyway/*/*/SRAM2RW128x8
+  192  ls -lrt /pkgs/synopsys/2020/*/*/lib/sram/milkyway/*/*/SRAM2RW128x8:;1
+  193  ls -lrt /pkgs/synopsys/2020/*/*/lib/sram/milkyway/*/*/SRAM2RW128x8:1
+  194  pwd
+  195  gvim ../rtl/fifo1_srama.sv 
+  196  ls -lrt 
+  197  gvim dc_shell.log.2023-01-25_23-05
+  198  grep "SRAMLP2RW128x8 SRAM2RW128x8" ../rtl/* 
+  199  grep "SRAMLP2RW128x8\|SRAM2RW128x8" ../rtl/* -r
+  200  history > ../../linuxcommands.txt
